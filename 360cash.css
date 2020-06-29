@@ -3,8 +3,14 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-}
-ul{
+}	
+	
+body {	
+  background-image: url(pattern1.png);
+  background-repeat: repeat;	
+}	
+
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -12,20 +18,24 @@ ul{
 	background-color: #3D2496;
 	padding-right: 50px;
 }
+
 li{
 	float: right;
 }
-li a{
+
+li a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
+
 li a:hover{
 	background-color: #000067;
 	color: white;
 }
+
 #logo{
 	float: left;
 	padding: 10px 50px;
@@ -33,43 +43,56 @@ li a:hover{
 	font-size: 25px;
 }
 
-#first-wrapper{
+.menu-icon {
+   color: white;
+   float: right;
+   font-size: 25px;
+   padding: 21px 0;
+   display: none;
+}
+	
+#first-wrapper {
     min-height: 100%;
 }
 
-#content1{
+#content1 {
     float: left;
     padding: 11em 0 0.5em 10%;
 }
 
-#content1 h3{
+#content1 h3 {
     font-size: 50px;
+    color: #323232;
 }
 
-#content1 p{
+#content1 p {
 	font-size: 25px;
 	padding-bottom: 10px;
+	color: #323232;
 }
-#content2{
+
+#content2 {
     width: 90%;
     margin: 50px 50px;
-    padding: 0.5em;
 }
-.btn1{
-	width: 20%;
+
+btn1 {
+	width: 50%;
 	height: 40px;
 	background-color: #3D2496;
 	color: white;
 	outline: none;
 	border:none;
 	border-radius: 60px;
-	margin-top: 2px;
+	margin-top: 10px;
 	margin-left:140px;
 	margin-right: 200px;
 	font-weight: bold;
 }
 
-.btn1:hover {background-color: #000067}
+.btn1:hover {
+   background-color: #000067;   
+}
 
 .btn1:active {
   background-color: #000067;
@@ -77,149 +100,26 @@ li a:hover{
   transform: translateY(4px);
 }
 
-.upper{
+.lower {
 	text-align: center;
-	margin-top: 140px;
-}
-
-.banner{
-	width: 80%;
-	height: 70%;
-	top: 25%;
-	left: 130px;
-	position: relative;
-	color: black;
-	text-align: center;
-	margin-top:50px;
-}
-
-.banner img{
-	width: 50%;
-	float: center;
-}
-
-.app-description{
-	margin-top: 150px;
-	background-color: white;
-	float:left;
-	margin-left: 140px;
-}
-
-.illustration{
-	margin-top: 100px;
-	float: right;
-}
-
-#feature{
-	width: 100%;
-	height: 55vh;
-	text-align: center;
-	justify-content: center;
-	margin-top: 600px;
-	padding-bottom: 20px;
-}
-
-#finside{
-	width: 100%;
-	height:55vh;
-	text-align: center;
-	justify-content: center;
-	display: flex;
-}
-
-#f1{
-	width: 25%;
-	height: 45vh;
-	margin: 20px 15px;
-	text-align:	center;
-	padding: 25px 20px;
-	color: white;
-	background-color: #3D2496;
-}
-
-#f1 h2{
-	padding-bottom: 15px; 
-}
-
-#icon{
-	width: 70px;
-	height: 70px;
-	margin: auto;
-	border-radius: 50%;
-	background-color: #000067;
-	color: white; 
-	padding: 20px;
-	font-size: 30px;
-	margin-bottom: 25px;
-}
-
-#contact{
-	width: 60%;
-	height: 70vh;
 	margin: auto;
 }
 
-#contact h1{
-	text-align: center;
-	margin-top: 70px;
+.lower h2 {
+  margin-bottom: 10px;
 }
 
-#first-input{
-	width: 45%;
-	height: 10vh;
-	float: left;
-	margin-top: 30px;
+.lower .Phone {
+  margin-bottom: 100px;
 }
 
-#second-input{
-	width: 45%;
-	height: 10vh;
-	float: right;
-	margin-top: 30px;
+.app-store img:hover {
+  background-color: #323232
 }
 
-
-#first-input input{
-	width: 100%;
-	height: 40px;
-	padding: 10px;
-}
-
-#second-input input{
-	width: 100%;
-	height: 40px;
-	padding: 10px;
-}
-
-textarea{
-	width: 100%;
-	margin-top: 20px;
-	padding: 12px;
-}
-
-.btn2{
-	width: 20%;
-	height: 40px;
-	background-color: #3D2496;
-	color: white;
-	outline: none;
-	border:none;
-	border-radius: 60px;
-	margin: auto;
-	font-weight: bold;
-}
-
-.btn2:hover {background-color: #000067}
-
-.btn2:active {
-  background-color: #000067;
+.app-store img:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
-
-.lower{
-	text-align: center;
-	margin: auto;
 }
 
 .footer {
